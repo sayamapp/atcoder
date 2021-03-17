@@ -5,6 +5,7 @@ fn main() {
         m: usize,
         h: usize,
     }
-
-    println!("{}", if h % m == 0 {"Yes"}else {"No"});
+    let res =
+        if h % m == 0 {"Yes"} else {"No"};
+    println!("{}", res);
 }
