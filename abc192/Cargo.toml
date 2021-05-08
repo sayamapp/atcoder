@@ -1,0 +1,16 @@
+[package]
+name = "abc192"
+version = "0.1.0"
+authors = ["sayamapp <sayamapp@gmail.com>"]
+edition = "2018"
+
+# dependencies added to new project
+[dependencies]
+# proconio = "*"
+# competitive = { git = "https://github.com/tanakh/competitive-rs.git" }
+proconio = "*"
+itertools = "*"
+
+[profile.release]
+lto = true
+panic = 'abort'
